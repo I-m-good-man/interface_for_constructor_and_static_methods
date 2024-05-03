@@ -9,7 +9,7 @@ class UserModel implements JsonSerializeInterface, JsonDeserializeInterface {
 
   UserModel(this.userId, this.userEmail);
 
-  static ImplementedSubclass1 fromJson(Map<String, dynamic> json) {
+  static UserModel fromJson(Map<String, dynamic> json) {
     // TODO: implement toJson
     throw UnimplementedError();
   }
